@@ -1,14 +1,191 @@
+@font-face {
+  font-family: 'Neue Pixel Grotesk';
+  src: local('Neue Pixel Grotesk'), url(../fonts/NeuePixelGrotesk_Regular.woff) format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+span {
+  font-family: 'Neue Pixel Grotesk';
+}
+
+h1 {
+  font-size: 232px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: -80px;
+}
+
+h2 {
+  font-size: 160px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: -60px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+h6 {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  margin-top: 200px;
+}
+
+.photo {
+  width: 50%;
+  max-width: 700px;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 25%;
+}
+
+.marquee-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid white;
+  padding: 15px 0;
+  width: 100vw;
+  background-color: black;
+  z-index: 2;
+}
+
+.marquee-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid white;
+  padding: 15px 0;
+  width: 100vw;
+  background-color: black;
+  z-index: 2;
+}
+
+.token {
+  padding-top: 60px;
+}
+
+.diagram {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boi {
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 180px;
+  height: 180px;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equals {
+  font-size: 56px;
+}
+
+.hour {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.intro {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.intro p {
+  font-size: 24px;
+  line-height: 36px;
+} 
+
+.wrapper {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col {
+  width: 46%;
+}
+
+.ball {
+  background-color: blue;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.ball-big {
+  width: 380px;
+  height: 380px;
+  font-size: 24px;
+  padding: 80px;
+}
+
+.ball-med {
+  width: 260px;
+  height: 260px;
+  font-size: 24px;
+  padding: 30px;
+}
+
+.balls {
+  width: 100%;
 }

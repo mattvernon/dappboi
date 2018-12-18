@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import boi from '../images/boi.jpg';
 import badge from '../images/badge.svg';
 import diagram from '../images/diagram.svg';
+import logos from '../images/logos.svg';
 
 var ReactDOM = require('react-dom');
 var Marquee = require('react-marquee');
@@ -68,6 +69,21 @@ class App extends Component {
             <img src={diagram} className="balls"/>
           </div>
           
+        </section>
+
+        <section className="projects">
+          <h3>Crypto projects I've worked on</h3>
+          <div class="wrapper">
+            <img src={logos} />
+          </div>
+        </section>
+
+        <section className="call-to-action">
+          <div class="wrapper">
+            <h3>Token Sale Launching</h3>
+            <h2>2019</h2>
+            <a href="#" className="button">Join the Whitelist</a>
+          </div>
         </section>
 
 

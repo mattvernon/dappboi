@@ -82,7 +82,7 @@ class App extends Component {
           <div class="wrapper">
             <h3>Token <span>Sale</span> Launching</h3>
             <h2>2<span>0</span>1<span>9</span></h2>
-            <a href="#" className="oval-button">Join the Whitelist</a>
+            <a href="https://airtable.com/shr06lpL9Y0YKtQiY" target="_blank" className="oval-button">Join the Whitelist</a>
             <h4><a href="https://twitter.com/dApp_boi" target="_blank">FO<span>LL</span>OW <span>@</span>DAPP_<span>B</span>OI</a></h4>
           </div>
         </section>

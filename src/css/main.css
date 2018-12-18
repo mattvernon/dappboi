@@ -195,10 +195,18 @@ h6 {
   padding-bottom: 100px;
 }
 
+.projects .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
 .call-to-action .wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .call-to-action h3 {
@@ -211,3 +219,37 @@ h6 {
   margin-top: -30px;
 }
 
+.oval-button {
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 50px 100px;
+  transition: 0.2s;
+  margin-top: 100px;
+  transform: rotate(-10deg);
+}
+
+.oval-button:hover {
+  background-color: white;
+  color: black;
+  transform: rotate(0deg);
+}
+
+.call-to-action h4 a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 100px;
+  display: block;
+  transition: 0.2s;
+}
+
+.call-to-action h4 a:hover {
+  color: blue;
+  transform: scale(1.05);
+}

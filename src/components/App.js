@@ -80,9 +80,10 @@ class App extends Component {
 
         <section className="call-to-action">
           <div class="wrapper">
-            <h3>Token Sale Launching</h3>
-            <h2>2019</h2>
-            <a href="#" className="button">Join the Whitelist</a>
+            <h3>Token <span>Sale</span> Launching</h3>
+            <h2>2<span>0</span>1<span>9</span></h2>
+            <a href="#" className="oval-button">Join the Whitelist</a>
+            <h4><a href="https://twitter.com/dApp_boi" target="_blank">FO<span>LL</span>OW <span>@</span>DAPP_<span>B</span>OI</a></h4>
           </div>
         </section>
 

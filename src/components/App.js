@@ -12,10 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="marquee-top">
-          <Marquee text="$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;" loop={true} hoverToStop={true}/>
+          <Marquee text="$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;" loop={true} hoverToStop={true}/>
         </div>
         <div className="marquee-bottom">
-          <Marquee text="$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;$BOI TOKEN SALE LAUNCHING 2019&nbsp;&nbsp;" loop={true} hoverToStop={true}/>
+          <Marquee text="$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;" loop={true} hoverToStop={true}/>
         </div>
 
         <div className="hero">
@@ -80,7 +80,7 @@ class App extends Component {
 
         <section className="call-to-action">
           <div class="wrapper">
-            <h3>Token <span>Sale</span> Launching</h3>
+            <h3>Launching</h3>
             <h2>2<span>0</span>1<span>9</span></h2>
             <a href="https://airtable.com/shr06lpL9Y0YKtQiY" target="_blank" className="oval-button">Join the Whitelist</a>
             <h4><a href="https://twitter.com/dApp_boi" target="_blank">FO<span>LL</span>OW <span>@</span>DAPP_<span>B</span>OI</a></h4>

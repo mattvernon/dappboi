@@ -5,6 +5,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Neue Pixel Grotesk", 'sans-serif';
 }
 
 // Media queries
@@ -35,10 +36,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
-}
-
-span {
-  font-family: 'Neue Pixel Grotesk';
 }
 
 h1 {

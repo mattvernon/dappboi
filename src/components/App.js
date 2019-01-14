@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-
-import Instant from '0x-instant-component';
+import {BrowserRouter as Router, Route,} from 'react-router-dom';
 
 import boi from '../images/boi.jpg';
 import badge from '../images/badge.svg';
@@ -11,9 +9,7 @@ import logos from '../images/logos.svg';
 
 import MarqueeTop from './MarqueeTop';
 import MarqueeBottom from './MarqueeBottom';
-
-var ReactDOM = require('react-dom');
-var Marquee = require('react-marquee');
+import Instant from "./Instant";
 
 class App extends Component {
   render() {

@@ -6,10 +6,6 @@ const Redeem = () => {
   return (
     <div className="page">
       <h1>Redeem BOI</h1>
-      <h2>Here are a few things you could redeem your BOI for..</h2>
-      {/* put cards here */}
-
-      <h3>How to redeem BOI</h3>
       <p className="step-one"><span>1.</span> Send your BOI back to this exact address:</p>
       <div className="address-field">0xB18A83EEa77Db549333eAA9E964d8887517B7C59</div>
       <img src={qr} className="qr" />

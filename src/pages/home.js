@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import {Link} from 'react-router-dom';
+
 import boi from '../images/boi.jpg';
 import badge from '../images/badge.svg';
 import diagram from '../images/diagram.svg';
@@ -84,13 +86,15 @@ const Home = () => {
 
       <section className="call-to-action">
         <div class="wrapper">
-          <h3>Launching</h3>
+          <h3>Available</h3>
           <h2>
-            2<span>0</span>1<span>9</span>
+            <span>N</span>O<span>W</span>
           </h2>
-          <a href="https://airtable.com/shr06lpL9Y0YKtQiY" target="_blank" className="oval-button">
-            Join the Whitelist
-          </a>
+
+          {/* ETHAN! PLS MAKE THIS LINK TRIGGER THE 0xInstant MODAL! */}
+          <Link to="/" className="oval-button">
+            BUY NOW
+          </Link>
           <h4>
             <a href="https://twitter.com/dApp_boi" target="_blank">
               FO<span>LL</span>OW <span>@</span>DAPP_<span>B</span>OI

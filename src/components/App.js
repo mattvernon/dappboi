@@ -21,7 +21,10 @@ class App extends Component {
           <div>
             <div className="nav">
               <Link to="/">Home</Link>
+
+              {/* ETHAN! PLS MAKE THIS LINK TRIGGER THE 0xInstant MODAL! */}
               <Link to="/buy">Buy</Link>
+              
               <Link to="/terms">Terms</Link>
               <Link to="/redeem">Redeem</Link>
             </div>

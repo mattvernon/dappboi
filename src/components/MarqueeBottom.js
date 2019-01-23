@@ -6,7 +6,7 @@ class MarqueeBottom extends Component {
     return (
       <div className="marquee-bottom">
         <Marquee
-          text="$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;$BOI LAUNCHING 2019&nbsp;&nbsp;"
+          text="$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;$BOI AVAILABLE NOW!&nbsp;&nbsp;"
           loop={true}
           hoverToStop={true}
         />

@@ -5,7 +5,11 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Neue Pixel Grotesk", 'sans-serif';
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+span {
+  font-family: 'Neue Pixel Grotesk';
 }
 
 // Media queries
@@ -38,6 +42,29 @@ body {
   color: white;
 }
 
+.nav {
+  position: fixed;
+  top: 80px;
+  right: 40px;
+  color: white;
+  z-index: 100;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    transition: 0.2s;
+  }
+
+  a:hover {
+    color: blue;
+  }
+}
+
 h1 {
   font-size: 232px;
   font-weight: 400;
@@ -51,6 +78,11 @@ h1 {
   @include small {
     font-size: 60px;
   }
+}
+
+.page h1 {
+  font-size: 126px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -358,4 +390,11 @@ h6 {
 .call-to-action h4 a:hover {
   color: blue;
   transform: scale(1.05);
+}
+
+/* PAGE STYLES */
+
+.page {
+  text-align: center;
+  padding-top: 160px;
 }

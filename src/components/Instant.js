@@ -1,9 +1,7 @@
 import React from 'react';
 
 class Instant extends React.Component {
-
   componentDidMount() {
-
     let renderJson;
     renderJson = {
       availableAssetDatas: [
@@ -20,13 +18,11 @@ class Instant extends React.Component {
           primaryColor: 'blue' // Optional
         }
       },
-      orderSource: 'http://localhost:8080/v2/',
+      orderSource: 'https://bubbly-granite-229322.appspot.com/v2/ ',
       networkId: 1
     };
 
-
     window && window.zeroExInstant && window.zeroExInstant.render(renderJson, 'body');
-
   }
 
   render() {

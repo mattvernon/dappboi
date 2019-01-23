@@ -7,12 +7,12 @@ class Instant extends React.Component {
     let renderJson;
     renderJson = {
       availableAssetDatas: [
-        '0xf47261b00000000000000000000000004610f319109461efed59a5a76297455d77a1efc9'
+        '0xf47261b0000000000000000000000000439ce375e3ee4dc203d71958beca3c0f417d65cb'
       ],
       defaultSelectedAssetData:
-        '0xf47261b00000000000000000000000004610f319109461efed59a5a76297455d77a1efc9',
+        '0xf47261b0000000000000000000000000439ce375e3ee4dc203d71958beca3c0f417d65cb',
       additionalAssetMetaDataMap: {
-        '0xf47261b00000000000000000000000004610f319109461efed59a5a76297455d77a1efc9': {
+        '0xf47261b0000000000000000000000000439ce375e3ee4dc203d71958beca3c0f417d65cb': {
           assetProxyId: '0xf47261b0', // ERC20 Proxy Id
           decimals: 18,
           symbol: 'BOI',
@@ -20,8 +20,8 @@ class Instant extends React.Component {
           primaryColor: 'blue' // Optional
         }
       },
-      orderSource: 'http://localhost:3001/v2/',
-      networkId: 42
+      orderSource: 'http://localhost:8080/v2/',
+      networkId: 1
     };
 
 

@@ -3,6 +3,7 @@
   src: local('Neue Pixel Grotesk'), url(../fonts/NeuePixelGrotesk_Regular.woff) format('woff');
 }
 
+
 * {
   box-sizing: border-box;
   font-family: 'Helvetica Neue', sans-serif;
@@ -173,6 +174,10 @@ h6 {
   @include small {
     display: none;
   }
+}
+
+.pseudo-link {
+  cursor: pointer;
 }
 
 .token {

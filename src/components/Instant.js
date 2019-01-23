@@ -1,7 +1,9 @@
 import React from 'react';
 
 class Instant extends React.Component {
+
   componentDidMount() {
+
     let renderJson;
     renderJson = {
       availableAssetDatas: [
@@ -22,13 +24,9 @@ class Instant extends React.Component {
       networkId: 42
     };
 
-    const script = document.createElement('script');
-    script.src = 'https://instant.0xproject.com/instant.js';
-    document.head.appendChild(script);
 
-    window.onload = function() {
-      window.zeroExInstant.render(renderJson, 'body');
-    };
+    window && window.zeroExInstant && window.zeroExInstant.render(renderJson, 'body');
+
   }
 
   render() {

@@ -18,7 +18,7 @@ class Instant extends React.Component {
           primaryColor: 'blue' // Optional
         }
       },
-      orderSource: 'https://bubbly-granite-229322.appspot.com/v2/ ',
+      orderSource: 'https://bubbly-granite-229322.appspot.com/v2/',
       networkId: 1
     };
 

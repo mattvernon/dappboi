@@ -3,8 +3,14 @@
   src: local('Neue Pixel Grotesk'), url(../fonts/NeuePixelGrotesk_Regular.woff) format('woff');
 }
 
+
 * {
   box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+span {
+  font-family: 'Neue Pixel Grotesk';
 }
 
 // Media queries
@@ -37,8 +43,27 @@ body {
   color: white;
 }
 
-span {
-  font-family: 'Neue Pixel Grotesk';
+.nav {
+  position: fixed;
+  top: 80px;
+  right: 40px;
+  color: white;
+  z-index: 100;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    transition: 0.2s;
+  }
+
+  a:hover {
+    color: blue;
+  }
 }
 
 h1 {
@@ -149,6 +174,10 @@ h6 {
   @include small {
     display: none;
   }
+}
+
+.pseudo-link {
+  cursor: pointer;
 }
 
 .token {
@@ -361,4 +390,102 @@ h6 {
 .call-to-action h4 a:hover {
   color: blue;
   transform: scale(1.05);
+}
+
+/* PAGE STYLES */
+
+.page {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+   h1 {
+    font-size: 126px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+
+  h3 {
+    font-size: 66px;
+    margin-bottom: 20px;
+  }
+
+  span {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 20px 26px;
+    margin-right: 20px;
+  }
+}
+
+ul, ol {
+  text-align: left;
+  display: block;
+  list-style: none;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  font-size: 20px;
+  max-width: 700px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.nopes {
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.step-one,
+.step-two {
+  font-size: 24px;
+}
+
+.step-two {
+  margin-top: 60px;
+}
+
+.address-field {
+  margin-top: 20px;
+  line-height: 16px;
+  border: 1px solid white;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.qr {
+  width: 160px;
+  margin-top: 40px;
+}
+
+.small-text,
+.warning-text {
+  max-width: 450px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.small-text {
+  color: #757488;
+  margin-top: 60px;
+}
+
+.warning-text {
+  color: #F8E71C;
 }
